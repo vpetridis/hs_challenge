@@ -1,19 +1,20 @@
 .ButtonCTA {
-  background-color: green;
+  background-color: #4fa16c;
   height: 80px;
   width: 80px;
+  line-height: 80px;
   border-radius: 50%;
   text-align: center;
   /* padding: 90px 0; */
   word-wrap: none;
   position: relative;
-  top: 100px;
-  left: -20px;
-  line-height: 80px;
+  top: 20px;
+  right: -30%;
 }
 
 .ButtonCTA--text {
   text-align: center !important;
   vertical-align: middle !important;
   line-height: 80px;
+  color: var(--txt-light);
 }
