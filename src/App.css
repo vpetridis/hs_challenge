@@ -2,3 +2,24 @@
   padding: 0;
   margin: 0;
 }
+
+.main--container {
+  width: 70vw !important;
+  height: max-content !important;
+  /* max-height: 50vh; */
+  margin: 0 auto !important;
+  margin-top: 6vh !important;
+  margin-bottom: 0vh !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-avatar {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
