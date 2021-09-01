@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
+
 import { Header } from "./components/Header";
 import { Button } from "./components/Button";
 import { Info } from "./components/Info";
@@ -8,6 +8,7 @@ import design_logo from "./assets/icons/design-logo.svg";
 import person from "./assets/images/person.png";
 import { InfoBox } from "./components/InfoBox";
 import { InfoContent } from "./components/InfoContent";
+import { CustomAccordion } from "./components/CustomAccordion";
 
 function App() {
   return (
@@ -79,6 +80,66 @@ function App() {
           people from any background access to top-class education, experience and network. 
           We offer a fully-funded master’s degree alongside an apprenticeship and a guaranteed job upon graduation.  "
         ></Info>
+      </section>
+      <section className="main--container">
+        <InfoBox height="470px">
+          <InfoContent
+            title="Scholarship value"
+            description="€31,300"
+          >
+            <h3>***TODO CONTENT***</h3>
+          </InfoContent>
+        </InfoBox>
+        <div>
+          <div className="d-flex justify-content-between">
+            <InfoBox height="270px" width="25vw">
+              <InfoContent
+                title="Study commitment"
+                description="3 hours / day"
+              >
+                <p>
+                  You will complete 15 modules to
+                  graduate. Daily classes are 3
+                  hours, plus coursework to
+                  complete in your own time.{" "}
+                </p>
+              </InfoContent>
+            </InfoBox>
+            <InfoBox height="270px" width="25vw">
+              <InfoContent
+                title="Work commitment"
+                description="4 hours / day"
+              >
+                <p>
+                  Immerse yourself in the
+                  professional world during your
+                  apprenticeship. You’ll learn the
+                  ropes from the best and get to
+                  apply your newly acquired
+                  knowledge in the field from day
+                  one.
+                </p>
+              </InfoContent>
+            </InfoBox>
+          </div>
+          <div>
+            <InfoBox height="170px" width="50vw">
+              <InfoContent
+                title="A full-time contract"
+                description="1 Year / Full-Time"
+              >
+                <p>
+                  You’ll be guaranteed a 1 year
+                  contract with SCG upon
+                  graduation.
+                </p>
+              </InfoContent>
+            </InfoBox>
+          </div>
+        </div>
+      </section>{" "}
+      <section className="main--container my-3">
+        {/* <CustomAccordion /> */}
       </section>
     </div>
   );
