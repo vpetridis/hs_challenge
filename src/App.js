@@ -8,7 +8,6 @@ import design_logo from "./assets/icons/design-logo.svg";
 import person from "./assets/images/person.png";
 import { InfoBox } from "./components/InfoBox";
 import { InfoContent } from "./components/InfoContent";
-import { CustomAccordion } from "./components/CustomAccordion";
 
 function App() {
   return (
@@ -44,14 +43,8 @@ function App() {
           </InfoBox>
           <InfoBox width="480px">
             <div className="d-flex justify-content-between">
-              <InfoContent
-                title="Location"
-                description="Bangkok"
-              />
-              <InfoContent
-                title="Duration"
-                description="1 Year"
-              >
+              <InfoContent title="Location" description="Bangkok" />
+              <InfoContent title="Duration" description="1 Year">
                 <p>FullTime</p>
               </InfoContent>
             </div>
@@ -69,10 +62,7 @@ function App() {
         </div>
       </main>
       <section className="main--container">
-        <img
-          src={person}
-          className="img-avatar"
-        />
+        <img src={person} className="img-avatar" />
         <Info
           title="About the apprenticeship"
           subtitle="A fully funded work-study program to launch your tech career"
@@ -98,10 +88,9 @@ function App() {
                 description="3 hours / day"
               >
                 <p>
-                  You will complete 15 modules to
-                  graduate. Daily classes are 3
-                  hours, plus coursework to
-                  complete in your own time.{" "}
+                  You will complete 15 modules to graduate. Daily
+                  classes are 3 hours, plus coursework to complete in
+                  your own time.{" "}
                 </p>
               </InfoContent>
             </InfoBox>
@@ -111,13 +100,10 @@ function App() {
                 description="4 hours / day"
               >
                 <p>
-                  Immerse yourself in the
-                  professional world during your
-                  apprenticeship. You’ll learn the
-                  ropes from the best and get to
-                  apply your newly acquired
-                  knowledge in the field from day
-                  one.
+                  Immerse yourself in the professional world during
+                  your apprenticeship. You’ll learn the ropes from the
+                  best and get to apply your newly acquired knowledge
+                  in the field from day one.
                 </p>
               </InfoContent>
             </InfoBox>
@@ -129,17 +115,13 @@ function App() {
                 description="1 Year / Full-Time"
               >
                 <p>
-                  You’ll be guaranteed a 1 year
-                  contract with SCG upon
+                  You’ll be guaranteed a 1 year contract with SCG upon
                   graduation.
                 </p>
               </InfoContent>
             </InfoBox>
           </div>
         </div>
-      </section>{" "}
-      <section className="main--container my-3">
-        {/* <CustomAccordion /> */}
       </section>
     </div>
   );
