@@ -1,0 +1,15 @@
+.info-box {
+  background: #ffffff;
+  border: 1px solid #dadada !important;
+  padding: 0.8em 1.5rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: max-content;
+  height: fit-content;
+  margin: 0.8rem 0.2rem;
+  word-spacing: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+}

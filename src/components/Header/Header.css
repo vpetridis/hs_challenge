@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--primary);
+  color: var(--txt-light) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  max-height: 60px;
+}
+
+.header--title {
+  margin: 0 1rem;
+  font-size: 1em;
+  color: var(--txt-light) !important;
+}
+.breadcrumb {
+  font-weight: 300 !important;
+  color: var(--txt-light) !important;
+  
+  font-size: 0.5rem;
+  align-self: center;
+  justify-self: center;
+}

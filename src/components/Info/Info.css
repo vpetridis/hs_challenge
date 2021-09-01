@@ -1,0 +1,18 @@
+.info {
+  width: 30vw;
+}
+
+.info--title {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.info--subtitle {
+  margin: 1.9rem 0;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.info--description {
+  font-weight: 100;
+}
