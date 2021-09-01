@@ -1,0 +1,10 @@
+.btn {
+   background: var(--primary);
+   color: var(--txt-light);
+   box-shadow: 0px 0px 0px transparent;
+   border: 0px solid transparent;
+   text-shadow: 0px 0px 0px transparent;
+   padding: .7rem 2rem;
+   border-radius: 29px;
+ }
+ 
