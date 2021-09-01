@@ -8,6 +8,7 @@ import design_logo from "./assets/icons/design-logo.svg";
 import person from "./assets/images/person.png";
 import { InfoBox } from "./components/InfoBox";
 import { InfoContent } from "./components/InfoContent";
+import { Carousel } from "./components/Carousel";
 
 function App() {
   return (
@@ -121,6 +122,7 @@ function App() {
               </InfoContent>
             </InfoBox>
           </div>
+          {/* <Carousel /> */}
         </div>
       </section>
     </div>
